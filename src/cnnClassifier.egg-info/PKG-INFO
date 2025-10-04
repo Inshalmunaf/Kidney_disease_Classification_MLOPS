@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/Inshalmunaf/Kidney_disease_Classification_MLOPS
+Author: Inshalmunaf
+Author-email: inshalmunaf@gmail.com
+Project-URL: Bug Tracker, https://github.com/Inshalmunaf/Kidney_disease_Classification_MLOPS/issues
+
+# Kidney_disease_Classification_MLOPS
