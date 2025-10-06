@@ -1,1 +1,33 @@
 [2025-10-05 12:15:47,133 : INFO : main : Welcome to the custome log]
+[2025-10-06 20:38:12,348 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-10-06 20:38:12,376 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-10-06 20:38:12,380 : INFO : common : created directory at: artifacts]
+[2025-10-06 20:38:12,383 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-10-06 20:47:25,916 : INFO : 992920486 : Downloaded data from https://drive.google.com/file/d/1nqErll4XHotgg8sLlXfXkHFHQ4fC69od/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-06 21:41:31,699 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-10-06 21:41:31,702 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-10-06 21:41:31,704 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-10-06 21:41:31,705 : INFO : common : created directory at: artifacts]
+[2025-10-06 21:41:31,707 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-10-06 21:43:02,881 : ERROR : main : [Errno 28] No space left on device]
+Traceback (most recent call last):
+  File "C:\Users\Inshal Munaf\VsCodeProjects\Kidney_disease_Classification_MLOPS\main.py", line 10, in <module>
+    obj.main()
+  File "c:\users\inshal munaf\vscodeprojects\kidney_disease_classification_mlops\src\cnnClassifier\pipeline\Stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "c:\users\inshal munaf\vscodeprojects\kidney_disease_classification_mlops\src\cnnClassifier\components\data_ingestion.py", line 31, in download_file
+    raise e
+  File "c:\users\inshal munaf\vscodeprojects\kidney_disease_classification_mlops\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix+fileid , zip_download_dir)
+  File "C:\Users\Inshal Munaf\AppData\Local\Programs\Python\Python311\Lib\site-packages\gdown\download.py", line 369, in download
+    f.write(chunk)
+OSError: [Errno 28] No space left on device
+[2025-10-06 21:54:06,933 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-10-06 21:54:06,933 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-10-06 21:54:06,933 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-10-06 21:54:06,933 : INFO : common : created directory at: artifacts]
+[2025-10-06 21:54:06,933 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-10-06 22:03:55,158 : INFO : data_ingestion : Downloaded data from https://drive.google.com/file/d/1nqErll4XHotgg8sLlXfXkHFHQ4fC69od/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-06 22:04:18,312 : INFO : main : >>>>>> stage Data Ingestion Stage completed <<<<<< 
+
+==========]
