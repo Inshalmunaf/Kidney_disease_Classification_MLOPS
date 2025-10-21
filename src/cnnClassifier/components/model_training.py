@@ -1,7 +1,7 @@
 import os
 import urllib.request as request
 from zipfile import ZipFile
-import tensorflow as tf # type: ignore
+import tensorflow as tf
 import time
 from pathlib import Path
 from cnnClassifier.entity.config_entity import TrainingConfig

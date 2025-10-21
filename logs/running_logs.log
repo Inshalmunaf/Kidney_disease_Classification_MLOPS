@@ -113,3 +113,29 @@ Traceback (most recent call last):
   File "C:\miniconda\envs\kidney\lib\site-packages\requests\models.py", line 822, in generate
     raise ChunkedEncodingError(e)
 requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(1040328328 bytes read, 583112401 more expected)', IncompleteRead(1040328328 bytes read, 583112401 more expected))
+[2025-10-21 18:19:34,993 : INFO : main : >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-10-21 18:19:35,007 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-10-21 18:19:35,020 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-10-21 18:19:35,022 : INFO : common : created directory at: artifacts]
+[2025-10-21 18:19:35,022 : INFO : common : created directory at: artifacts/data_ingestion]
+[2025-10-21 18:31:25,145 : INFO : data_ingestion : Downloaded data from https://drive.google.com/file/d/1nqErll4XHotgg8sLlXfXkHFHQ4fC69od/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-21 18:31:46,710 : INFO : main : >>>>>> stage Data Ingestion Stage completed <<<<<< 
+
+==========]
+[2025-10-21 18:31:46,711 : INFO : main : >>>>>> stage Prepare Base Model started <<<<<<]
+[2025-10-21 18:31:46,714 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-10-21 18:31:46,716 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-10-21 18:31:46,717 : INFO : common : created directory at: artifacts]
+[2025-10-21 18:31:46,718 : INFO : common : created directory at: artifacts/prepare_base_model]
+[2025-10-21 18:31:50,113 : WARNING : saving_utils : Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-21 18:31:50,360 : INFO : main : >>>>>> stage Prepare Base Model completed <<<<<< 
+
+==========]
+[2025-10-21 18:31:50,361 : INFO : main : >>>>>> stage Prepare Base Model started <<<<<<]
+[2025-10-21 18:31:50,364 : INFO : common : yaml file: config\config.yaml loaded successfully]
+[2025-10-21 18:31:50,366 : INFO : common : yaml file: params.yaml loaded successfully]
+[2025-10-21 18:31:50,367 : INFO : common : created directory at: artifacts]
+[2025-10-21 18:31:50,368 : INFO : common : created directory at: artifacts/training]
+[2025-10-21 19:15:46,425 : INFO : main : >>>>>> stage Prepare Base Model completed <<<<<< 
+
+==========]
